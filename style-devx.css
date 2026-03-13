@@ -22,7 +22,7 @@
   --container-desktop: min(980px, calc(100% - 100px));
   --container-mobile: calc(100% - 48px);
   --section-min-height: 320px;
-  --section-min-height-mobile: 360px;
+  --section-min-height-mobile: 300px;
 }
 
 /* General Styles */
@@ -885,6 +885,11 @@ footer {
     display: flex;
   }
 
+    /* Homepage Section */
+    homepage-div{
+      height: 370px;
+    }
+
   .button-div button.sign-in {
     font-size: var(--fs-sm);
     width: 100%;
@@ -926,15 +931,16 @@ footer {
     font-size: var(--fs-sm);
   }
 
+    /* Proven Recoulds */
   .proven-record-div {
     min-height: auto;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .awarded-main-container {
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
   }
 
   .awarded-div1,
@@ -956,7 +962,9 @@ footer {
   .awarded {
     margin-left: 0;
   }
+   
 
+    /* Ous story div*/
   .our-story-main-div {
     padding: 34px 0;
   }
@@ -990,7 +998,7 @@ footer {
     margin-top: 14px;
     margin-left: 0;
     margin-right: 0;
-    text-align: center;
+    text-align: start;
   }
 
   .about2 {
@@ -999,7 +1007,7 @@ footer {
     margin-top: 16px;
     margin-left: 0;
     margin-right: 0;
-    text-align: center;
+    text-align: start;
   }
 
   .about3 {
@@ -1008,7 +1016,7 @@ footer {
     margin-top: 16px;
     margin-left: 0;
     margin-right: 0;
-    text-align: center;
+    text-align: start;
   }
 
   .image-div {
@@ -1033,7 +1041,7 @@ footer {
   .content-section {
     width: var(--container-mobile);
     max-width: none;
-    min-height: var(--section-min-height-mobile);
+    min-height: 340px;
     margin: 26px auto 0;
     padding: 28px 20px;
   }
@@ -1117,9 +1125,9 @@ footer {
     width: var(--container-mobile);
     max-width: none;
     min-height: var(--section-min-height-mobile);
-    margin: 50px auto 0;
+    margin: 34px auto 0;
     padding: 24px 18px;
-    gap: 24px;
+    gap: 18px;
   }
 
   .carrier-header {
@@ -1184,7 +1192,7 @@ footer {
   }
 
   .profile {
-    min-height: 270px;
+    min-height: 240px;
     padding: 86px 18px 18px;
   }
 
@@ -1192,8 +1200,8 @@ footer {
     width: var(--container-mobile);
     grid-template-columns: 1fr;
     min-height: auto;
-    gap: 34px;
-    padding: 34px 0 24px;
+    gap: 24px;
+    padding: 26px 0 20px;
   }
 
   .grid1 {
