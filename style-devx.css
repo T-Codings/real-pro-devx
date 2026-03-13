@@ -890,6 +890,10 @@ footer {
       height: 300px;
     }
 
+    .welcome-button{
+      margin-top: -30px;
+    }
+
   .button-div button.sign-in {
     font-size: var(--fs-sm);
     width: 100%;
@@ -934,10 +938,14 @@ footer {
     /* Proven Recoulds */
   .proven-record-div {
     min-height: auto;
-    height: 780px;
+    height: 720px;
     padding-bottom: 20px;
   }
 
+  .h31{
+    font-size: 25px;
+    margin-top:-30px;
+  }
   .awarded-main-container {
     flex-direction: column;
     gap: 30px;

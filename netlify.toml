@@ -11,4 +11,4 @@
 
 git add .
 git commit -am "files edited"
-git psuh
+git push
