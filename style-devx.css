@@ -886,8 +886,8 @@ footer {
   }
 
     /* Homepage Section */
-    homepage-div{
-      height: 370px;
+    .homepage-div{
+      height: 300px;
     }
 
   .button-div button.sign-in {
@@ -934,7 +934,7 @@ footer {
     /* Proven Recoulds */
   .proven-record-div {
     min-height: auto;
-    height: auto;
+    height: 780px;
     padding-bottom: 20px;
   }
 

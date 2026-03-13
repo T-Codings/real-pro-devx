@@ -6,3 +6,9 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+
+
+git add .
+git commit -am "files edited"
+git psuh
