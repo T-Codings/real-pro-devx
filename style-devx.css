@@ -1032,7 +1032,9 @@ footer {
     max-width: 280px;
     height: auto;
   }
+  /* Apart*/
 
+  
   .apart-header1 {
     margin: 0;
     font-size: var(--fs-2xl);
@@ -1041,9 +1043,10 @@ footer {
   .content-section {
     width: var(--container-mobile);
     max-width: none;
-    min-height: 340px;
+    min-height: 310px;
     margin: 26px auto 0;
     padding: 28px 20px;
+  
   }
 
   #scholarship {
@@ -1063,13 +1066,7 @@ footer {
     font-size: var(--fs-sm);
   }
 
-  .greater-than {
-    display: none;
-  }
 
-  .less-than {
-    display: none;
-  }
 
   .developer-community-div {
     display: flex;
@@ -1096,25 +1093,49 @@ footer {
     font-size: var(--fs-xs);
   }
 
+  /* community images wrapper */
+  .developer-community-div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0 20px;
+  }
+
+   .developer-community-div {
+
+height: 910px;
+  }
   .img1 {
-    width: 140px;
-    height: 100px;
-    margin: 20px auto 0;
-    position: static;
+    width: 120px;
+    height: auto;
+    position: absolute;
+      margin-left: -310px;
+    margin-top: 230px;
+
+    border-radius: var(--border-radius-large);
   }
 
   .img2 {
-    width: 110px;
-    height: 130px;
-    margin: 14px auto 0;
-    position: static;
+    width: 80px;
+    height: auto;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 5px;
+    border-radius: var(--border-radius-large);
+ 
   }
 
   .img3 {
-    width: 280px;
-    height: 220px;
-    margin: 14px auto 0;
-    position: static;
+    width: 100%;
+    max-width: 280px;
+    height: 240px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    border-radius: var(--border-radius-large);
+    margin-bottom: 100px;
+    margin-top: 60px;
   }
 
   .grow-carrier-div {
@@ -1243,18 +1264,23 @@ footer {
     width: var(--container-mobile);
     margin: 0 auto;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 14px;
     padding: 16px 0 28px;
+    text-align: center;
   }
 
   .copyright-div {
     margin: 0;
+    width: 100%;
+    text-align: center;
   }
 
   #footer-image-div {
+    justify-content: center;
     gap: 12px;
+    width: 100%;
   }
 
   .copyright {
