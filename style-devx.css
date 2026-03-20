@@ -1103,7 +1103,7 @@ footer {
   }
 
   /* community images wrapper */
-  .developer-community-div > div:last-child {
+  .community-images-holder {
     display: flex;
     flex-direction: column;
     align-items: center;
